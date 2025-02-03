@@ -9,7 +9,9 @@ for i in range(student_number):
     for a in range(2):
         student_key = input("enter the name,addres,mobile no.,class,mark = ")
         student_value = input("enter = ")
-        value[student_key] = student_value
+        #value[student_key] = student_value
+
+        value.update({student_key:student_value})
         
     print("\n\n",value)
 print("\n\n",dict1)
