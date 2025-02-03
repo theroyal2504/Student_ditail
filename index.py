@@ -6,9 +6,10 @@ for i in range(student_number):
     key = input("Enter student roll number  to give you = ")
     value = {}
     dict1[key] = value
-    for a in range(2):
+    for a in range(4):
         student_key = input("enter the name,addres,mobile no.,class,mark = ")
         student_value = input("enter = ")
+
         #value[student_key] = student_value
 
         value.update({student_key:student_value})
